@@ -20,7 +20,7 @@ body {
   left: 3em;
   top: 5em;
   padding: 1em;
-  width: 14em;
+  width: 10em;
   line-height: 2;
 }
 .toc ul {
@@ -82,8 +82,10 @@ body {
   padding-top: 1em;
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 480px) {
   body {
-    font-size: 14px;
+    font-size: 9px;
+    
   }
 }
+
